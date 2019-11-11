@@ -10,13 +10,13 @@ const App = () => (
   <div>
     <Navigation />
     <Route 
-    exact to="/"
+    exact path="/"
     component={Home} />
     <Route 
-    exact to="/about"
+    exact path="/about"
     component={About} />
     <Route 
-    exact to="/contact"
+    exact path="/contact"
     component={Contact} />
   </div>
 );
